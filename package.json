@@ -1,19 +1,26 @@
 {
-  "name": "webpack2",
+  "name": "webpack2-training",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack"
+    "build": "rimraf dist && webpack",
+    "dev": "node dev-server.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://renancaldas@github.com/renancaldas/webpack2-training.git"
+  },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "webpack": "^2.2.1"
+  "bugs": {
+    "url": "https://github.com/renancaldas/webpack2-training/issues"
   },
-  "dependencies": {
-    "lodash": "^4.17.4"
+  "homepage": "https://github.com/renancaldas/webpack2-training#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "rimraf": "^2.5.4",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
   }
 }
