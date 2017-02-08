@@ -1,7 +1,7 @@
 # webpack2-training
 
 ### Based on the video tutorial
-#### https://www.youtube.com/watch?v=eWmkBNBTbMM&t=4727s
+#### https://www.youtube.com/watch?v=eWmkBNBTbMM
 
 ### Topics:
 Video length / Description
